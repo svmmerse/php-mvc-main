@@ -10,7 +10,7 @@
   <h2 class="pt-4">Data Mata Kuliah</h2>
   <div class="row mb-3 pt-2">
     <div class="col-lg-6">
-      <button type="button" class="btn btn-primary tombolTambahMk" data-toggle="modal" data-target="#formModal">
+      <button type="button" class="btn btn-primary tombolTambahDataMkl" data-toggle="modal" data-target="#formModal">
         Tambah Data
       </button>
     </div>
