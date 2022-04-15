@@ -63,7 +63,7 @@ CREATE TABLE `matkul` (
 
 INSERT INTO `matkul` (`id_matkul`, `nama_matkul`, `kode_matkul`, `ruangan`) VALUES
 (1, 'Database Sistem', 'MK01', 'Ruangan 1A'),
-(2, 'Sistem Manajemen', 'Mk02', 'Ruangan 2A');
+(2, 'Sistem Manajemen', 'MK02', 'Ruangan 2A');
 
 -- --------------------------------------------------------
 
