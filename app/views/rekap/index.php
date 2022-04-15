@@ -66,7 +66,7 @@
             <label for="nm_mhs">Nama Mahasiswa</label>
             <select class="form-control" name="nm_mhs">
               <?php
-              $con = mysqli_connect("localhost", "root", "", "cobadulu");
+              $con = mysqli_connect("localhost", "root", "", "db_mvc");
               $result1 = mysqli_query($con, "SELECT * FROM mahasiswa WHERE nama = nama AND nrp =nrp");
               while ($row1 = mysqli_fetch_array($result1)) {
 
@@ -80,7 +80,7 @@
             <label for="nrp">NRP Mahasiswa</label>
             <select class="form-control" name="nrp">
               <?php
-              $con = mysqli_connect("localhost", "root", "", "cobadulu");
+              $con = mysqli_connect("localhost", "root", "", "db_mvc");
               $result2 = mysqli_query($con, "SELECT * FROM mahasiswa WHERE nrp = nrp");
               while ($row2 = mysqli_fetch_array($result2)) {
 
@@ -94,7 +94,7 @@
             <label for="nm_matkul">Nama Mata Kuliah</label>
             <select class="form-control" name="nm_matkul">
               <?php
-              $con = mysqli_connect("localhost", "root", "", "cobadulu");
+              $con = mysqli_connect("localhost", "root", "", "db_mvc");
               $result3 = mysqli_query($con, "SELECT * FROM matkul WHERE nama_matkul = nama_matkul");
               while ($row3 = mysqli_fetch_array($result3)) {
 
@@ -108,7 +108,7 @@
             <label for="kd_matkul">Kode Mata Kuliah</label>
             <select class="form-control" name="kd_matkul">
               <?php
-              $con = mysqli_connect("localhost", "root", "", "cobadulu");
+              $con = mysqli_connect("localhost", "root", "", "db_mvc");
               $result4 = mysqli_query($con, "SELECT * FROM matkul WHERE kode_matkul = kode_matkul");
               while ($row4 = mysqli_fetch_array($result4)) {
 
