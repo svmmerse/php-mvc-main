@@ -1,0 +1,51 @@
+.badge {
+    margin-left: 3px;
+}
+
+header {
+
+    padding: 180px 0 165px;
+    background-image: url("http://localhost/mvc3/public/img/gambar.png");
+    background-size: cover;
+  }
+
+.display-4{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+.btn-get-started{
+    background-color: burlywood;
+    color: #ffffff;
+  }
+
+.btn-get-started:hover{
+    background-color: darkred;
+    color: #ffffff;
+  }
+
+.btn-kembali{
+  background-color: white;
+  color: black;
+}
+
+.btn-kembali:hover{
+  background-color: darkred;
+  color:white;
+}
+
+.table-responsive{
+    border-radius: 8px;
+
+  }
+
+.table{
+    background-color: white;
+  }
+
+.thead{
+   background-color: navy;
+   color: white;
+  }
